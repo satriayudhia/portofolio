@@ -13,6 +13,10 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    fontFamily: {
+      roboto: ["Roboto"],
+    },
   },
   plugins: [],
+  darkMode: "class",
 } satisfies Config;
