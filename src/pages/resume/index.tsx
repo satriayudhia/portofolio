@@ -194,6 +194,42 @@ const Resume = () => {
       color: "#387BC8",
     },
   ];
+
+  const knowledges = [
+    {
+      id: 1,
+      name: "Development",
+    },
+    {
+      id: 2,
+      name: "Design",
+    },
+    {
+      id: 3,
+      name: "Communication",
+    },
+    {
+      id: 4,
+      name: "Security",
+    },
+    {
+      id: 5,
+      name: "Task Management",
+    },
+    {
+      id: 6,
+      name: "App Design",
+    },
+    {
+      id: 7,
+      name: "SEO Optimization",
+    },
+    {
+      id: 8,
+      name: "Web Optimization",
+    },
+  ];
+
   return (
     <div className="bg-white overflow-hidden rounded-[20px]">
       <div className="p-[60px]">
@@ -311,6 +347,17 @@ const Resume = () => {
 
           <div>
             <h4 className="text-2xl font-medium mb-5">Knowledges</h4>
+
+            <div className="flex flex-wrap gap-4">
+              {knowledges.map((item) => (
+                <div
+                  key={`knowledge-` + item.id}
+                  className="py-[5px] px-5 rounded-lg bg-slate-100 text-black text-center text-sm"
+                >
+                  {item.name}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

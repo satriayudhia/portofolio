@@ -14,6 +14,10 @@ export default function App({ Component, pageProps }: AppProps) {
           name="description"
           content="Curiculum Vitae Satria Yudhia Putra Frontend Developer"
         />
+        <meta
+          name="google-site-verification"
+          content="awiwca0tiIDP-r_y8F_AbqkB1XsD-e81eh28BTD0hMI"
+        />
       </Head>
 
       <RootLayout>

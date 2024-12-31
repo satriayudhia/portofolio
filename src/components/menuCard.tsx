@@ -45,15 +45,15 @@ const MenuCard = () => {
     {
       id: 3,
       name: "Works",
-      pathname: "/works",
+      pathname: "/portofolio",
       render: () => (
         <FaBriefcase
           size={24}
-          color={hovered === 3 || pathname === "/works" ? "#fff" : "#000"}
+          color={hovered === 3 || pathname === "/portofolio" ? "#fff" : "#000"}
           className="mb-[10px]"
         />
       ),
-      onClick: () => push("/works"),
+      onClick: () => push("/portofolio"),
     },
     {
       id: 4,
